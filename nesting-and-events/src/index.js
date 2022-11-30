@@ -16,7 +16,7 @@ const taskList = [
 function App() {
 
   const [data, setData] = useState(taskList);
-  
+  console.log('Yetunde was here');
    return (
       <Fragment>
         <h1 key="heading">Task List</h1>
