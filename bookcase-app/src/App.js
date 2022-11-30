@@ -7,5 +7,15 @@ function App() {
   return <Book/>;
 }
 
+function App() {
+  // const books = data
+  const [books] = useState(data);
+
+  return <div>
+  <h1>Tobia's library</h1>
+  {books.map((book) => <Book key={book.id} book={book} />)}
+  </div>
+}
+
 export default App;
 
