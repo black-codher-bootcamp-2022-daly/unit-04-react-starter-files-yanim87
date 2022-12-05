@@ -22,7 +22,11 @@ function App() {
         <h1 key="heading">Task List</h1>
         <TaskContainer>
           <Task task1 title="Buy Milk" isComplete={false} />
-          
+          <Task task2 title="Read a book" isComplete={false} />
+          <Task task3 title="Early morning run" isComplete={false} />
+          <Task task4 title="Drink water" isComplete={false} />
+          <Task task5 title="Visit the puppy shelter" isComplete={false} />
+          <Task task6 title="Watch Bad Sisters" isComplete={false} />
           {/* Task: Nesting Components - Add you tasks here: */}
         </TaskContainer>
       </Fragment>
